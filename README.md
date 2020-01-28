@@ -41,12 +41,12 @@
 
 ![](resources/face_gen.png)
 
- * where X is new face which generated using $k_d$ eigenfaces ($u_{di}$) corresponding to each dimension ($d$) by varying magnitude of $b_{di}$ . 
+ * where ![](https://latex.codecogs.com/svg.latex?$$\mathit{x}$$) is a new face which is generated using ![](https://latex.codecogs.com/svg.latex?$k_d$) eigenfaces (![](https://latex.codecogs.com/svg.latex?$u_{di}$)) corresponding to each dimension (![](https://latex.codecogs.com/svg.latex?$d$)) by varying magnitude of ![](https://latex.codecogs.com/svg.latex?$b_{di}$). 
  
  * Variant of faces are generated using **average face** as template and adding extreme combination of eigenvectors (![](https://latex.codecogs.com/svg.latex?$&space;-3&space;\sqrt{\lambda}&space;\le&space;b_{di}&space;\le&space;3&space;\sqrt{\lambda}&space;$)) to show range of faces that can be produced.  
 
 
-<!-- $X \ \approx \  \bar{X}  + \sum_{i=1}^{k} b_i \mathbf{u_i} $ \\ -->
+<!-- $x \ \approx \  \bar{X}  + \sum_{i=1}^{k} b_i \mathbf{u_i} $ \\ -->
 
 
 <!-- $ -3 \sqrt{\lambda} \le bi \le 3 \sqrt{\lambda} $ -->
