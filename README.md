@@ -3,7 +3,7 @@
  * Objective here is to visualize the dominant modes of variability in three 3D faces mainly, and not focus on facial texture. <!-- Though, typically Active Shape Model (ASM) is used to extract the texture of the interested object with a base (template) model using an extension of eigenvector algorithm.  -->
 
 
-* The attached [notbook](eigen3dmodel_for_active_shape_model.ipynb) is limited to analysing the variability in given data and also visualizes 3D faces generated using eigenfaces that is computed which capture at least 98% variability in the data.  
+* The attached [notbook](eigenface_3d_vz.ipynb) analyzes the variability in given data and also presents some extreme samples of 3D faces generated using eigenfaces which captures at least 98% variability in the data.  
 
 
 ## Dataset
